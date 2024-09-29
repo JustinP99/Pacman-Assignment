@@ -73,7 +73,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -418,7 +418,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ghost1(PacMan)_0: -232030520108868609
+      Ghost1(PacMan)_1: -3029018459973501389
+      Ghost1(PacMan)_10: -8305251397159197660
+      Ghost1(PacMan)_11: 7116381223504957952
+      Ghost1(PacMan)_12: 6433597927171488158
+      Ghost1(PacMan)_2: -513582934681421016
+      Ghost1(PacMan)_3: -7962768722997383740
+      Ghost1(PacMan)_4: 4392247701661820336
+      Ghost1(PacMan)_5: 2727125440270506203
+      Ghost1(PacMan)_6: -1460748054275509578
+      Ghost1(PacMan)_7: 6833207940522625165
+      Ghost1(PacMan)_8: -3527622290827797296
+      Ghost1(PacMan)_9: -5555072385917518332
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
