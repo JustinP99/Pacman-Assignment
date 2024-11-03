@@ -14,4 +14,11 @@ public class SceneLoad : MonoBehaviour
     {
         SceneManager.LoadScene("Level2Scene");
     }
+
+    public void LoadExit()
+    {
+        SceneManager.LoadScene("StartScene");
+    }
+
+
 }
