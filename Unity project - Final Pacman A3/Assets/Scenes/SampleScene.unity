@@ -2642,37 +2642,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &402407677
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 402407678}
-  m_Layer: 0
-  m_Name: PacStudent
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &402407678
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 402407677}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &480627074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4094,7 +4063,7 @@ Animator:
   m_GameObject: {fileID: 766232200}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dfb31dd973d0ae8468ac8061f009d74f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4131,20 +4100,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 766232200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4166953d7b359441858c80ee0a30011, type: 3}
+  m_Script: {fileID: 11500000, guid: 8246247ed1f885941b5b55ec72eae2b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  tileMaps:
+  moveSpeed: 10
+  pacTiles:
   - {fileID: 2086663038}
   - {fileID: 1546318533}
   - {fileID: 1438686816}
   - {fileID: 1438256816}
-  animator: {fileID: 766232202}
-  audioSource: {fileID: 1668511412}
-  moveAudio: {fileID: 8300000, guid: dc6b5a88e16b7014eae7d475349411a1, type: 3}
-  pelletAudio: {fileID: 8300000, guid: 6e32c2792856310479e9716a1919d800, type: 3}
-  dustParticle: {fileID: 1531013472}
 --- !u!1 &767723491
 GameObject:
   m_ObjectHideFlags: 0
@@ -15325,7 +15289,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   introMusic: {fileID: 8300000, guid: 89ecb52ca79c6574b8505fd89be42fd0, type: 3}
   normalStateMusic: {fileID: 8300000, guid: d7e59a4530f6e1e4faa33669f3042d7d, type: 3}
-  introDuration: 10
+  introDuration: 3
 --- !u!1 &1750260149
 GameObject:
   m_ObjectHideFlags: 0
@@ -17380,10 +17344,11 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
-  - {fileID: 402407678}
   - {fileID: 603064214}
   - {fileID: 2042454306}
   - {fileID: 835914557}
+  - {fileID: 1750260150}
+  - {fileID: 1668511413}
   - {fileID: 766232203}
   - {fileID: 1323667285}
   - {fileID: 24935411}
@@ -17393,8 +17358,6 @@ SceneRoots:
   - {fileID: 480627074}
   - {fileID: 838748029}
   - {fileID: 1528566688}
-  - {fileID: 1750260150}
-  - {fileID: 1668511413}
   - {fileID: 1113081823}
   - {fileID: 1295781880}
   - {fileID: 238456929}
